@@ -8,7 +8,6 @@ setup(
   author = 'Ryan Williams',
   author_email = 'lrw0102@uw.edu',
   url = 'https://github.com/lawrywill/kmeanseval',
-  download_url = '',
   keywords = ['data science', 'unsupervised learning', 'k-means', 'clustering'],
   install_requires = [
           'numpy',
@@ -17,9 +16,9 @@ setup(
       ],
   classifiers = [
     'Development Status :: 3 - Alpha',
-    'Intended Audience :: Developers',
-    'Topic :: Software Development :: Build Tools',
+    'Intended Audience :: Decision Scientists, Data Scientists, Business Analysts',
+    'Operating System :: OS Independent',
     'License :: OSI Approved :: MIT License',
-    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3',
   ],
 )
