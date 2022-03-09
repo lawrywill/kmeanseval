@@ -119,7 +119,7 @@ class KMeansEvaluator():
         # plot the values
         self._generic_plot(metric_list, 'Average silhouette score', figsize, textsize)
 
-    def plot_silhouette_scores(self, figsize = (10, 5), textsize = 12):
+    def plot_silhouette_scores(self, figsize = (16, 8), textsize = 15):
         """
         Function to create a plot of silhouette scores for each sample in each cluster in k-means clustering over
         a range of potential values for k.
@@ -127,7 +127,8 @@ class KMeansEvaluator():
             - figsize: length of width of the plot to produce, based on pyplot 'figsize'
             - textsize: size of text in the plot, based on pyplot 'size'
         Output:
-            - A matplotlib pyplot visualizing how the evaluation metric varies over values of k
+            - A matplotlib pyplot visualizing the silhouette scores for each sample in each cluster for all values
+                of k in the supplied range
         """
 
         for k_clusters in self._k_range:
