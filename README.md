@@ -1,7 +1,7 @@
 # kmeanseval
 kmeanseval is a package that wraps around the scikit-learn KMeans model interface to provide users with the ability to easily get within-cluster-sum of squared errors and silhouette scores. This allows users to evaluate K-means clusteirng models without the need for boilerplate code that loops through the creation of multiple models and plots the results.
 
-## Project organization
+## Project Organization
 ```
 kmeanseval/
 
