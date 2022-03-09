@@ -16,6 +16,7 @@ kmeanseval/
 	|- example_usage.ipynb
 	|- setup.py
 	|- requirements.txt
+	|- .coverage
 	|- LICENSE.txt
 ```
 
