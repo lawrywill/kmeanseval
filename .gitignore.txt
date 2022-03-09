@@ -1,3 +1,2 @@
-kmeanseval/__pycache__
-.ipynb_checkpoints
-.pytest_cache
+kmeanseval/__pycache__/
+.ipynb_checkpoints/
