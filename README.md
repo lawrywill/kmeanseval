@@ -28,7 +28,7 @@ kmeanseval/
 
 ## Usage
 Users who wish to evaluate a series of K-means models to choose an ideal k will need to follow these steps:
-* Import kmeansevaluator
+* Import kmeanseval
 * Create a KMeansEvaluator object, specifying your data set and the range of k you want to analyze
 * Use the get_metrics method from the object to get WSS or silhouette scores in a list
 * Use the plot_elbow, plot_silhouette_scores, and plot_avg_silhouette_scores methods to create visualizations for how these metrics vary with k
