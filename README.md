@@ -30,4 +30,4 @@ For an example of this workflow in practice, see 'exmaple_usage.ipynb'
 ## Installation
 
 ## License Information
-MIT License
+[MIT License](https://github.com/lawrywill/kmeanseval/blob/master/LICENSE.txt)

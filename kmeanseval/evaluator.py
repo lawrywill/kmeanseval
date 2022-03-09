@@ -13,6 +13,18 @@ import numpy as np
 
 
 class KMeansEvaluator():
+    """
+    The KMeansEvaluator class contains all user-facing functionality
+    for the kmeanseval package.
+    Public methods:
+        - get_metrics(): provides metrics to user in a list format
+        - plot_elbow(): creates an elbow plot for wss values
+        - plot_avg_silhouette_score(): creates a line plot of
+            average silhouette scores by cluster
+        - plot_silhouette_score(): creates a plot of silhouette
+            scores for every sample/observation
+    """
+
     def __init__(self, data, k_range=range(2, 11), **kwargs):
         self._data = data
         self._k_range = k_range
