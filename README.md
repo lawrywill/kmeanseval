@@ -25,7 +25,7 @@ Users who wish to evaluate a series of K-means models to choose an ideal k will 
 * Use the get_metrics method from the object to get WSS or silhouette scores in a list
 * Use the plot_elbow, plot_silhouette_scores, and plot_avg_silhouette_scores methods to create visualizations for how these metrics vary with k
 
-For an example of this workflow in practice, see 'exmaple_usage.ipynb'
+For an example of this workflow in practice, see [example_usage.ipynb](https://github.com/lawrywill/kmeanseval/blob/master/example_usage.ipynb)
 
 ## Installation
 
