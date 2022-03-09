@@ -23,9 +23,9 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        python pip install flake8 
-        python pip install coverage
-        python pip install -r requirements.txt
+        python -m pip install flake8 
+        python -m pip install coverage
+        python -m pip install -r requirements.txt
     - name: Test for flake8 adherance
       run: |
         flake8 --ignore=F401 kmeanseval
