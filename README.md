@@ -1,5 +1,5 @@
 # kmeanseval
-kmeanseval is a lightweight package that wraps around the scikit-learn KMeans model interface to provide users with the ability to easily get within-cluster-sum of squared errors and silhouette scores. This allows users to evaluate K-means clusteirng models without the need for boilerplate code that loops through the creation of multiple models and plots the results.
+kmeanseval is a package that wraps around the scikit-learn KMeans model interface to provide users with the ability to easily get within-cluster-sum of squared errors and silhouette scores. This allows users to evaluate K-means clusteirng models without the need for boilerplate code that loops through the creation of multiple models and plots the results.
 
 ## Project organization
 ```
@@ -11,11 +11,11 @@ kmeanseval/
 	|- data/
 		|- movies-metadata-sample.csv
 	|- docs/
-		|- project_writeup.pdf
+		|- project_report.pdf
 	|- examples/
 		|- example_usage.ipynb
 	|- kmeanseval/
-		|- \_\_init\_\_.py
+		|- __init__.py
 		|- evaluator.py
 		|- test_evaluator.py
 	|- .coverage
@@ -35,8 +35,8 @@ Users who wish to evaluate a series of K-means models to choose an ideal k will 
 For an example of this workflow in practice, see [example_usage.ipynb](https://github.com/lawrywill/kmeanseval/blob/master/example_usage.ipynb)
 
 ## Installation
-1. Clone the kmeanseval repo from github.
-2. Navigate to the top level of the directory and install using the command:
+1. Clone the kmeanseval repo from github
+2. Navigate to the top level of the kmeanseval directory and install using the command:
 ```bash
 pip install .
 ```
