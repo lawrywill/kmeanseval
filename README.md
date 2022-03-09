@@ -4,20 +4,26 @@ kmeanseval is a lightweight package that wraps around the scikit-learn KMeans mo
 ## Project organization
 ```
 kmeanseval/
-	|- README.md
-	|- kmeanseval
-		|- \_\_init\_\_.py
-		|- evaluator.py
-		|- tests
+
+	|- .github/
+		|- workflows
+			|- kmeanseval-ci.yml
 	|- data/
 		|- movies-metadata-sample.csv
 	|- docs/
 		|- project_writeup.pdf
-	|- example_usage.ipynb
-	|- setup.py
-	|- requirements.txt
+	|- examples/
+		|- example_usage.ipynb
+	|- kmeanseval/
+		|- \_\_init\_\_.py
+		|- evaluator.py
+		|- test_evaluator.py
 	|- .coverage
+	|- .gitignore
 	|- LICENSE.txt
+	|- README.md
+	|- requirements.txt
+	|- setup.py
 ```
 
 ## Usage
@@ -29,6 +35,14 @@ Users who wish to evaluate a series of K-means models to choose an ideal k will 
 For an example of this workflow in practice, see [example_usage.ipynb](https://github.com/lawrywill/kmeanseval/blob/master/example_usage.ipynb)
 
 ## Installation
+1. Clone the kmeanseval repo from github.
+2. Navigate to the top level of the directory and install using the command:
+```bash
+pip install .
+```
+
+## Continuous Integration
+Pushes to, and pull requests from, the master branch result in tests for flake8 adherance and test coverage through Github Actions.
 
 ## License Information
 [MIT License](https://github.com/lawrywill/kmeanseval/blob/master/LICENSE.txt)

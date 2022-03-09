@@ -1,3 +1,4 @@
+build
+examples/.ipynb_checkpoints
 kmeanseval/__pycache__
-.ipynb_checkpoints
 docs/project_writeup.docx
